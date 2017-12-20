@@ -1,10 +1,12 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+# We need _slvs.pyd for msys64 demo
+#*.py[cod]
 *$py.class
 
 # C extensions
-*.so
+# We need libslvs.so for msys64 demo
+#*.so
 
 # Distribution / packaging
 .Python
